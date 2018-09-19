@@ -3,7 +3,7 @@
 //  ViewControllerSampleGitHub
 //
 //  Created by hideta on 2018/09/19.
-//  Copyright © 2018年 hideta. All rights reserved.
+//  Copyright © 2018 hideta. All rights reserved.
 //
 
 import UIKit
@@ -40,7 +40,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
 
 }
 
