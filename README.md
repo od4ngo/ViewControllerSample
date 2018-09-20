@@ -5,7 +5,8 @@
 [![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
 )](https://developer.apple.com/swift)
 
-iOS UIKit ViewController Sample codes for Swift beginner
+iOS UIKit ViewController Sample Codes for Swift beginner<br>
+No Storyboard usage (but be there just to inherit modules)
 
 ## Environment
 
