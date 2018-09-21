@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
     
     var label: UILabel!
     var button1: UIButton!
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         button1.frame.origin.y = 150
         button1.setTitle(": UI" + dataList[1], for: .normal)
         button1.backgroundColor = .blue
-        button1.addTarget(self, action: #selector(ViewController.goToTable), for: .touchUpInside)
+        button1.addTarget(self, action: #selector(RootViewController.goToTable), for: .touchUpInside)
         view.addSubview(button1)
         
         button2 = UIButton(frame: CGRect(x: 0, y: 0, width: btnWidth, height: btnHeight))

@@ -15,7 +15,7 @@
 		1442735F2152BB3A00874F30 /* FirstTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1442735E2152BB3A00874F30 /* FirstTabBarController.swift */; };
 		144273612152BB9C00874F30 /* SecondTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144273602152BB9C00874F30 /* SecondTabBarController.swift */; };
 		1452E131215288300038F7F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452E130215288300038F7F8 /* AppDelegate.swift */; };
-		1452E133215288300038F7F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452E132215288300038F7F8 /* ViewController.swift */; };
+		1452E133215288300038F7F8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452E132215288300038F7F8 /* RootViewController.swift */; };
 		1452E136215288300038F7F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1452E134215288300038F7F8 /* Main.storyboard */; };
 		1452E138215288410038F7F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1452E137215288410038F7F8 /* Assets.xcassets */; };
 		1452E13B215288410038F7F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1452E139215288410038F7F8 /* LaunchScreen.storyboard */; };
@@ -31,7 +31,7 @@
 		144273602152BB9C00874F30 /* SecondTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarController.swift; sourceTree = "<group>"; };
 		1452E12D2152882F0038F7F8 /* ViewControllerSampleGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerSampleGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1452E130215288300038F7F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1452E132215288300038F7F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1452E132215288300038F7F8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1452E135215288300038F7F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1452E137215288410038F7F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1452E13A215288410038F7F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,8 +68,11 @@
 		1452E12F2152882F0038F7F8 /* ViewControllerSampleGitHub */ = {
 			isa = PBXGroup;
 			children = (
+				1452E13C215288410038F7F8 /* Info.plist */,
+				1452E137215288410038F7F8 /* Assets.xcassets */,
+				1452E139215288410038F7F8 /* LaunchScreen.storyboard */,
 				1452E130215288300038F7F8 /* AppDelegate.swift */,
-				1452E132215288300038F7F8 /* ViewController.swift */,
+				1452E132215288300038F7F8 /* RootViewController.swift */,
 				1452E134215288300038F7F8 /* Main.storyboard */,
 				144273542152B6E800874F30 /* TableViewController.swift */,
 				144273562152B8D000874F30 /* CollectionViewController.swift */,
@@ -78,9 +81,6 @@
 				1442735C2152BABD00874F30 /* TabBarController.swift */,
 				1442735E2152BB3A00874F30 /* FirstTabBarController.swift */,
 				144273602152BB9C00874F30 /* SecondTabBarController.swift */,
-				1452E137215288410038F7F8 /* Assets.xcassets */,
-				1452E139215288410038F7F8 /* LaunchScreen.storyboard */,
-				1452E13C215288410038F7F8 /* Info.plist */,
 			);
 			path = ViewControllerSampleGitHub;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144273572152B8D000874F30 /* CollectionViewController.swift in Sources */,
-				1452E133215288300038F7F8 /* ViewController.swift in Sources */,
+				1452E133215288300038F7F8 /* RootViewController.swift in Sources */,
 				144273592152B9A600874F30 /* NavigationController.swift in Sources */,
 				144273612152BB9C00874F30 /* SecondTabBarController.swift in Sources */,
 				144273552152B6E800874F30 /* TableViewController.swift in Sources */,
