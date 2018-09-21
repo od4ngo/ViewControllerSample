@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  ViewControllerSampleGitHub
 //
 //  Created by hideta on 2018/09/19.
